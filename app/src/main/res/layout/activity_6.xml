@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/picfor"
+    tools:context=".Activity4">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="370dp"
+        android:text="Sajek Valley"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="160dp"
+        android:text="Hanging Bridge"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/ran1"
+        android:src="@drawable/ran1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+
+        />
+
+
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/ran2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ran2" />
+
+</FrameLayout>

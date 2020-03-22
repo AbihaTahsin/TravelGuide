@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">NewApp</string>
+    <string name="editText1">Enter Your Name</string>
+    <string name="editText2">Enter Your Password</string>
+    <string name="checkBox">Keep Me Logged In</string>
+    <string name="but1">Log In</string>
+    <string name="but2">CONFIRM</string>
+    <string name="but3">Places To Visit</string>
+    <string name="but4">Available Hotels</string>
+    <string name="but5">Temperature</string>
+    <string name="but6">Vegeterian</string>
+    <string name="q1">Vacation Place</string>
+    <string name="q2">Foys Lake</string>
+    <string name="q3">Potenga Beach</string>
+    <string name="q4">What is your reservation date?</string>
+    <string name="q5">Vacation Time</string>
+
+
+    <string-array name="cityNames">
+        <item>Chittagong</item>
+        <item>Sylhet</item>
+        <item>Rangamati</item>
+    </string-array>
+
+    <string-array name="monNames">
+        <item>April 2020</item>
+        <item>June 2020</item>
+    </string-array>
+
+    <string name="action_settings">Settings</string>
+    <string name="date_label_set">Press the button to set the date</string>
+    <string name="date_button_set">Set Date</string>
+    <string name="date_view_set">The Date is: </string>
+    <string name="date_selected"></string>
+
+</resources>
